@@ -1,0 +1,10 @@
+# This file ensures the data directory is included in version control.
+# The data directory structure is:
+#
+# data/
+# ├── experiments/     # Raw experimental data and metadata
+# └── plots/           # Generated visualizations
+#     ├── single/      # Individual experiment plots
+#     └── comparison/  # Multi-experiment comparison plots
+#
+# Actual data files (CSV, JSON, PNG) are excluded via .gitignore. 
